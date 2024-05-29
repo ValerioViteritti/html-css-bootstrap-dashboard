@@ -7,10 +7,22 @@
 
 body{
     overflow: hidden;
+    margin: 0 auto;
+    
+    
 
     font-size: 0.6rem;
     
 }
+
+
+@media (min-width: 0px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 2400px;
+    }
+  }
+
+
 
 .btn{
     font-size: 0.5rem;
@@ -67,6 +79,8 @@ body{
 /* REGOLE DELL'HEADER */
 
 header{
+
+    
     
 
 }
@@ -147,6 +161,8 @@ header .gap-2 .fa-solid{
 
 header .gap-2 .fa-bell{
     color: #ff8f00;
+    background-color: white;
+    border: none;
 }
 
 /* debug */
@@ -228,7 +244,7 @@ main{
 
     main .nav-icon{
         display: flex;
-        
+
     }
 
     #nav-laterale{
@@ -263,12 +279,19 @@ main{
 
 #top-main{
     background-color: #1b72e8;
+    color: white;
 
     /* debug */
     width: 100%;
-
-    height: 100px;
+    min-height: 100px;
 }
+
+#top-main .fa-square-plus{
+    color: white;
+    font-size: 2rem;
+}
+
+
 
 #image-stats{
     width: 100%;
