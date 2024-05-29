@@ -95,6 +95,21 @@ header img{
     width: 100%;
 }
 
+
+/* media header */
+
+@media all and (max-width: 991px){
+    header .gap-2 .fa-solid{
+        display: none;
+    }
+
+    header .gap-2 .fa-bell{
+        display: block;
+    }
+}
+
+
+
 @media all and (min-width: 991px) {
     #logo{
         display: block;
@@ -104,20 +119,30 @@ header img{
         display: none;
     }
 
+    header .gap-2 .fa-solid{
+        display: block;
+    }
+
+
     
+
 }
 
 
 
-header .col-8{
+header .col-10 input{
+    background-color: #e5e5e5;
     
-    /* display: flex;
-    align-items: center; */
+}
+
+header a{
+    text-decoration: none;
 }
 
 header .gap-2 .fa-solid{
     font-size: 1rem;
     color: #5b5858;
+    
 }
 
 header .gap-2 .fa-bell{
