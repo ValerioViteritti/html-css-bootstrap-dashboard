@@ -205,9 +205,54 @@ main{
     flex-direction: column;
     justify-content: space-between;
     overflow-y: hidden;
-    
-   
+
 }
+
+
+
+.nav-icon a i, .nav-extended a i, .nav-extended a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+
+
+
+
+}
+
+@media all and (max-width: 991px){
+
+    main .nav-extended{
+        display: none;
+    }
+
+    main .nav-icon{
+        display: flex;
+        
+    }
+
+    #nav-laterale{
+        width: 60px;
+        
+    
+    }
+    
+    
+}
+
+
+@media all and (min-width: 991px){
+
+    main .nav-extended{
+        display: flex;
+    }
+
+    main .nav-icon{
+        display: none;
+    }
+    
+}
+
 
 #bigger{
     margin-left: 0.75rem;
