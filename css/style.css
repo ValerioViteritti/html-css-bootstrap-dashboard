@@ -6,6 +6,7 @@
 }
 
 body{
+    overflow: hidden;
 
     font-size: 0.6rem;
     
@@ -65,9 +66,62 @@ body{
 
 /* REGOLE DELL'HEADER */
 
+header{
+    
+
+}
+
 header .container{
     height: 50px;
     background-color: #f8f9fa;
+    z-index: 1000;
+    position: fixed;
+    
+    
+}
+
+header .row{
+    height: 70%;
+    background-color: white;
+}
+
+header img{
+    height: 100%;
+    
+}
+
+#logo{
+    display: none;
+    width: 100%;
+}
+
+@media all and (min-width: 991px) {
+    #logo{
+        display: block;
+    }
+
+    #logo-small{
+        display: none;
+    }
+
+    
+}
+
+
+
+header .col-8{
+    
+    /* display: flex;
+    align-items: center; */
+}
+
+header .gap-2 .fa-solid{
+    font-size: 1rem;
+    color: #5b5858;
+}
+
+header .gap-2 .fa-bell{
+    color: #ff8f00;
 }
 
 /* debug */
@@ -113,6 +167,7 @@ header .container{
 
 /* REGOLE DEL MAIN */
 main{
+    margin-top: 50px;
     
 }
 
@@ -124,6 +179,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow-y: hidden;
     
    
 }
@@ -131,6 +187,8 @@ main{
 #bigger{
     margin-left: 0.75rem;
     margin-right: -0.75rem;
+    overflow-y: scroll;
+    height: 100vh;
 }
 
 #top-main{
