@@ -224,6 +224,13 @@ main{
 
 }
 
+#nav-laterale a:hover, #nav-laterale a:hover i{
+    background-color: #e5e5e5;
+    color: #051e34;
+    padding: 0 3px;
+
+}
+
 
 
 .nav-icon a i, .nav-extended a i, .nav-extended a{
@@ -277,18 +284,32 @@ main{
     height: 100vh;
 }
 
+
+#bigger .row{
+    
+}
+
+
+#bigger .table tbody tr:hover td{
+    background-color: #c6c9cb;
+}
+
 #top-main{
     background-color: #1b72e8;
     color: white;
 
     /* debug */
-    width: 100%;
+    
     min-height: 100px;
+    
+    
 }
 
 #top-main .fa-square-plus{
     color: white;
     font-size: 2rem;
+    
+    
 }
 
 
@@ -298,6 +319,17 @@ main{
 
 }
 
+#blue-block h4{
+    display: inline;
+
+}
+
+
+.offcanvas-body button{
+    padding: 5px 8px;
+    font-size: 0.7rem;
+
+}
 
 
 
