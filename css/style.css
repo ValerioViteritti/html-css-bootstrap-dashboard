@@ -72,6 +72,14 @@ body{
     text-align: center;
 }
 
+.bg-grey{
+    background-color: #f7f7f7;
+}
+
+.vv_w-90px{
+    min-width: 90px;
+}
+
 
 
 
@@ -330,6 +338,18 @@ main{
     font-size: 0.7rem;
 
 }
+
+
+@media all and (max-width: 767px) {
+
+    .vv_display-none{
+        display: none;
+    }
+    
+}
+
+
+
 
 
 

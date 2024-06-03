@@ -146,10 +146,31 @@
             
     
             <div id="bigger" class="container">
-                <div id="top-main" class="row">
+                <div id="top-main" class="row flex-md-row flex-column-reverse justify-content-md-between">
                     <!-- <div> -->
-                      <div class="col-4">
-                        <h4>Nuovo Studente</h4>
+                      <div id="blue-block" class="col-12 col-md-8 mt-3">
+                        <div class="row">
+                          <div class="col-12 col-md-6 col-lg-8 mb-2">
+                            <h4>Boolean</h4>
+                          </div>
+                          <div class="col-12 col-md">
+                            <div class="fs-6">Studenti online negli ultimi 30 minuti
+                            </div>
+                            <div class="fs-3">
+                              125
+                            </div>
+
+
+                          </div>
+                          
+
+
+
+                        </div>
+              
+                      </div>
+                      <div class="col-12 col-md-auto mt-3">
+                        <h4 class="fs-6 d-inline">Nuovo Studente</h4>
                         <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-regular fa-square-plus"></i></button>
 
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -252,36 +273,23 @@
                           </div>
                         </div>
                       </div>
-                      <div id="blue-block" class="col-8">
-                        <div>
-                          <h4>Boolean</h4>
-
-
-
-                        </div>
-                        <div>
-
-                        </div>
-                        
-
-                      </div>
 
                     <!-- </div> -->
                 </div>
-                <div class="row row-cols-1 row-cols-lg-2">
+                <div class="row row-cols-1 row-cols-lg-2 bg-grey">
                     <div class="col-12 col-lg-7">
                         
                         <div class="card">
                             <div>
-                                <h4>Prossime Classi</h4>
+                                <h4 class="bg-grey">Prossime Classi</h4>
                             </div>
                             
                             <table class="table">
                                 <thead>
                                   <tr>
                                     <td scope="col" class="table-width-">Nome</td>
-                                    <td scope="col" class="vv_text-center">Data inizio</td>
-                                    <td scope="col" class="vv_text-center">ROI</td>
+                                    <td scope="col" class="vv_text-center vv_display-none">Data inizio</td>
+                                    <td scope="col" class="vv_text-center vv_display-none">ROI</td>
                                     <td scope="col" class="vv_text-center">Stato</td>
                                     <td scope="col" class="vv_text-center">Azioni</td>
                                   </tr>
@@ -293,10 +301,10 @@
                                         <i class="fa-solid fa-code"></i>
                                       </span> Classe 75
                                     </td>
-                                    <td class="vv_text-center">15 Feb 2021</td>
-                                    <td class="vv_text-center">20%</td>
+                                    <td class="vv_text-center vv_display-none vv_w-90px">15 Feb 2021</td>
+                                    <td class="vv_text-center vv_display-none">20%</td>
                                     <td class="vv_text-center"><button type="button" class="btn btn-success">Done</button></td>
-                                    <td class="vv_text-center"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
+                                    <td class="vv_text-center vv_w-90px"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
                                   </tr>
                                   <tr>
                                     <td>
@@ -304,8 +312,8 @@
                                         <i class="fa-solid fa-code"></i>
                                       </span> Classe 76
                                     </td>
-                                    <td class="vv_text-center">16 Feb 2021</td>
-                                    <td class="vv_text-center">20%</td>
+                                    <td class="vv_text-center vv_display-none">16 Feb 2021</td>
+                                    <td class="vv_text-center vv_display-none">20%</td>
                                     <td class="vv_text-center"><button type="button" class="btn btn-success">Done</button></td>
                                     <td class="vv_text-center"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
                                   </tr>
@@ -315,8 +323,8 @@
                                         <i class="fa-solid fa-code"></i>
                                       </span> Classe 77
                                     </td>
-                                    <td class="vv_text-center">17 Feb 2021</td>
-                                    <td class="vv_text-center">20%</td>
+                                    <td class="vv_text-center vv_display-none">17 Feb 2021</td>
+                                    <td class="vv_text-center vv_display-none">20%</td>
                                     <td class="vv_text-center"><button type="button" class="btn btn-warning">process</button></td>
                                     <td class="vv_text-center"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
                                   </tr>
@@ -326,8 +334,8 @@
                                         <i class="fa-solid fa-code"></i>
                                       </span> Classe 78
                                     </td>
-                                    <td class="vv_text-center">18 Feb 2021</td>
-                                    <td class="vv_text-center">20%</td>
+                                    <td class="vv_text-center vv_display-none">18 Feb 2021</td>
+                                    <td class="vv_text-center vv_display-none">20%</td>
                                     <td class="vv_text-center"><button type="button" class="btn btn-success">Done</button></td>
                                     <td class="vv_text-center"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
                                   </tr>
@@ -337,8 +345,8 @@
                                         <i class="fa-solid fa-code"></i>
                                       </span> Classe 79
                                     </td>
-                                    <td class="vv_text-center">19 Feb 2021</td>
-                                    <td class="vv_text-center">20%</td>
+                                    <td class="vv_text-center vv_display-none">19 Feb 2021</td>
+                                    <td class="vv_text-center vv_display-none">20%</td>
                                     <td class="vv_text-center"><button type="button" class="btn btn-danger">failed</button></td>
                                     <td class="vv_text-center"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
                                   </tr>
@@ -348,8 +356,8 @@
                                         <i class="fa-solid fa-code"></i>
                                       </span> Classe 80
                                     </td>
-                                    <td class="vv_text-center">20 Feb 2021</td>
-                                    <td class="vv_text-center">20%</td>
+                                    <td class="vv_text-center vv_display-none">20 Feb 2021</td>
+                                    <td class="vv_text-center vv_display-none">20%</td>
                                     <td class="vv_text-center"><button type="button" class="btn btn-success">Done</button></td>
                                     <td class="vv_text-center"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
                                   </tr>
@@ -359,8 +367,8 @@
                                         <i class="fa-solid fa-code"></i>
                                       </span> Classe 81
                                     </td>
-                                    <td class="vv_text-center">21 Feb 2021</td>
-                                    <td class="vv_text-center">20%</td>
+                                    <td class="vv_text-center vv_display-none">21 Feb 2021</td>
+                                    <td class="vv_text-center vv_display-none">20%</td>
                                     <td class="vv_text-center"><button type="button" class="btn btn-danger">failed</button></td>
                                     <td class="vv_text-center"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
                                   </tr>
@@ -370,8 +378,8 @@
                                         <i class="fa-solid fa-code"></i>
                                       </span> Classe 82
                                     </td>
-                                    <td class="vv_text-center">22 Feb 2021</td>
-                                    <td class="vv_text-center">20%</td>
+                                    <td class="vv_text-center vv_display-none">22 Feb 2021</td>
+                                    <td class="vv_text-center vv_display-none">20%</td>
                                     <td class="vv_text-center"><button type="button" class="btn btn-success">Done</button></td>
                                     <td class="vv_text-center"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></td>
                                   </tr>
@@ -425,7 +433,7 @@
                         
                         <div class="card">
                             <div>
-                                <h4>Todo</h4>
+                                <h4 class="bg-grey">Todo</h4>
                             </div>
                             
                             <div class="card-a">
